@@ -6,6 +6,7 @@ Implementation of paper "Exploring molecular heteroencoders with latent space ar
 
 <b>Files:</b>
   - dlsv.py - script to calculate delta latent space vectors for atoms in molecules represented by SMILES strings.
+  - dlsv_apfp.py - script to calculate delta latent space vectors for atoms in molecules represented by SMILES strings, the corresponding Gasteiger charges and atom-pair fingerprint.
   - plot_ar_1.html - interactive t-SNE map of atoms represented by DLSV, labeled with aromaticity.
   - plot_el_1.html - interactive t-SNE map of atoms represented by DLSV, labeled with atomic element.
   - plot_hi_1.html - interactive t-SNE map of atoms represented by DLSV, labeled with hybridization.
